@@ -146,11 +146,11 @@ Highest grade: A
 
  ## Arithmetic Operators:
  * The arithmetic operators are used to perform arithmetic/mathematical operations on operands.
- * There are 9 arithmetic operators in C language.
+ * 
    
    ```
    #include <stdio.h>
- int main() {
+    int main() {
     int num1,num2;
      printf("Enter first number: \n");
     scanf("%d", &num1);
@@ -160,23 +160,26 @@ Highest grade: A
     printf("num1-num2 = %d\n ", num1-num2);
     printf("num1*num2 = %d\n ", num1*num2);
     printf("num1/num2 = %d\n ", num1/num2);
-
+   printf("num1%num2 = %d\n ", num1%num2);
     return 0;
-}
-```
+}```
+
 ### Output
 ```
 Enter first number: 
 7
 Enter Second number: 
 9
-num1+num2 = 16
+ num1+num2 = 16
  num1-num2 = -2
  num1*num2 = 63
  num1/num2 = 0
+ num1%num2 = 1
  
 === Code Execution Successful ===
 ```
+## Relational Operators 
+* The relational operators in C are used for the comparison of the two operands.
 
 
 
