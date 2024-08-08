@@ -16,7 +16,37 @@
 * C Programming is used to program embedded systems where programs need to run faster in limited memory.
 
 # Features of C 
-<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/08/Features-of-C.jpg" alt="Features" height="350px" width="350px">" 
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/08/Features-of-C.jpg" alt="Features" height="350px" width="350px">
+
+ # Comments in C
+ In C there are two types of comments in C language:
+* Single-line comment
+* Multi-line comment
+  
+  ### Single-line Comment
+A single-line comment in C starts with ( // ) double forward slash. It extends till the end of the line and we don’t need to specify its end.
+```
+// This is a single line comment
+```
+ ###  Multi-line comment
+* The Multi-line comment in C starts with a forward slash and asterisk ( /* ) and ends with an asterisk and forward slash ( */ ). Any text between /* and */ is treated as a comment and is ignored by the compiler.
+* It can apply comments to multiple lines in the program.
+```
+/* Hello Isha
+Are You Fine? */
+```
+# First Program in C
+```
+#include<stdio.h>
+int main(){
+   printf("Hello World");
+   return 0;
+}
+```
+### Output
+```
+Hello World
+```
 
   # Module 1- Variables, Constant & Keywords
   ## Variables
@@ -28,7 +58,7 @@
     * NO commas or blanks are allowed.
     * Variables names are Case senstive. eg- int STUDENT=10; , int student=10; (Both STUDENT and student are different variable
     ### Syntax of declaring Variable
-   <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221202181339/Cvariables1.png" alt="Features" height="250px" width="550px">" 
+   <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221202181339/Cvariables1.png" alt="Features" height="250px" width="550px">
 
    ### WAP for Variables
    ```
@@ -61,6 +91,53 @@ Name: Alice
 
 === Code Execution Successful ===
 ```
+## Constant
+* The constants in C are the read-only variables whose values cannot be modified once they are declared in the C program.
+* The type of constant can be an integer constant, a floating pointer constant, a string constant, or a character constant.
+*  In C language, the const keyword is used to define the constants.
+  ### Syntax of declaring Constant
+  ```
+const data_type var_name = value;
+```
+ <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230306215927/syntax-of-constants-in-c.png" alt="Features" height="250px" width="550px">" 
+ ### WAP of Constant
+ ```
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize constant variables using the const keyword
+    const int DAYS_IN_WEEK = 7;
+    const int MONTHS_IN_YEAR = 12;
+    const char GRADE = 'A';
+
+    // Print the values of the constants
+    printf("Number of days in a week: %d\n", DAYS_IN_WEEK);
+    printf("Number of months in a year: %d\n", MONTHS_IN_YEAR);
+    printf("Highest grade: %c\n", GRADE);
+
+    // Attempting to modify the constants will result in a compile-time error
+    // Uncommenting the following lines will cause errors
+    // MONTHS_IN_YEAR = 10;
+    // DAYS_IN_WEEK = 8;
+
+    return 0;
+}
+```
+### Output
+```
+Number of days in a week: 7
+Number of months in a year: 12
+Highest grade: A
+
+
+=== Code Execution Successful ===
+```
+## Keywords
+* Keywords in C refer to a set of reserved words with predefined meanings that are used to write programs in the C programming language.
+* These keywords cannot be used as identifiers or variable names, as they have a specific function within the language.
+  
+ <img src="https://techskillguru.com/cdata/cprogramming/images/C-Keywords.png" alt="Features" height="350px" width="350px">" 
+
 
    
 
