@@ -181,6 +181,16 @@ Enter Second number:
 ## Relational Operators 
 * The relational operators in C are used for the comparison of the two operands.
 
+ ```
+###  S. No.	 Symbol	  Operator	    Description             	                        Syntax
+        1	    +       Plus	      Adds two numeric values.	                           a + b
+        2	    –	      Minus	     Subtracts right operand from left operand.         	a – b
+        3	    *	      Multiply  	Multiply two numeric values.                       	a * b
+        4	    /      	Divide    	Divide two numeric values.	                         a / b
+        5	    %      	Modulus   	Returns the remainder after diving the left        	a % b
+                                   operand with the right operand.
+```
+
 
 
    
