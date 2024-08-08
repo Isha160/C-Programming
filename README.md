@@ -136,7 +136,48 @@ Highest grade: A
 * Keywords in C refer to a set of reserved words with predefined meanings that are used to write programs in the C programming language.
 * These keywords cannot be used as identifiers or variable names, as they have a specific function within the language.
   
- <img src="https://techskillguru.com/cdata/cprogramming/images/C-Keywords.png" alt="Features" height="350px" width="350px">" 
+ <img src="https://techskillguru.com/cdata/cprogramming/images/C-Keywords.png" alt="Features" height="350px" width="350px">
+
+ # Module 2- Operators
+ * In Programming, operators are symbols that represent operations to be performed on one or more operands.
+ * An operator is defined as the symbol that helps us to perform some specific mathematical, relational, bitwise, conditional, or logical computations on values and variables.
+    
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231214120748/Operators-in-C.png" alt="Features" height="350px" width="350px">" 
+
+ ## Arithmetic Operators:
+ * The arithmetic operators are used to perform arithmetic/mathematical operations on operands.
+ * There are 9 arithmetic operators in C language.
+   
+   ```
+   #include <stdio.h>
+ int main() {
+    int num1,num2;
+     printf("Enter first number: \n");
+    scanf("%d", &num1);
+     printf("Enter Second number: \n");
+    scanf("%d", &num2);
+    printf("num1+num2 = %d\n ", num1+num2);
+    printf("num1-num2 = %d\n ", num1-num2);
+    printf("num1*num2 = %d\n ", num1*num2);
+    printf("num1/num2 = %d\n ", num1/num2);
+
+    return 0;
+}
+```
+### Output
+```
+Enter first number: 
+7
+Enter Second number: 
+9
+num1+num2 = 16
+ num1-num2 = -2
+ num1*num2 = 63
+ num1/num2 = 0
+ 
+=== Code Execution Successful ===
+```
+
 
 
    
