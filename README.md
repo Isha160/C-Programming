@@ -3,10 +3,37 @@
 <img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="350px">
 
 # Table of Content
-* Introduction
-* Introduction of C Programming
-* Installation
-* System Requirement
+### Introduction of C Programming
+  * Introduction
+  * Features
+  * Comments
+  * First program in C
+### Installation
+### System Requirement
+### Module 1 - Variables, Constant & Keywords
+  * About Variables
+  * About Constant
+  *  About Keywords
+### Module 2- Operators
+  * Arithmetic Operators
+  * Relational Operators
+  * Logical Operators
+  * Bitwise Operators
+  * Assignment Operators
+  * Unary Operators
+  * Conditional/Ternary Operators
+### Module 3- COntrol Statements & Decision Making
+  * Braching Statements
+  * Iterative/ Loops Statements
+  * Jump Statements
+### Module 4- Pointers
+  * About Poiters
+  * Address of (&) Operator
+### Module 5- Array
+### Module 6- String
+  * Intializing String
+  * Printing Strings
+  * Gets() and Puts() 
 
 
 # Introduction of C Programming
@@ -719,6 +746,102 @@ Value of i: 4
 Loop finished
 ```
 # Module 4- Pointers
-
-
+* A pointer is a variable that stores the address of another variable.
+  ## Syntax of pointer
+  ```
+  datatype * ptr;
+  where,
+      ptr is the name of the pointer.
+      datatype is the type of data it is pointing to.
+  ```
+    ## Address Of (&) Operator
+* The address of operator '&' returns the address of a variable.
+* But, we need to use % to display the address of a variable.
   
+  ## Example of Pointer
+  ```
+  #include <stdio.h>
+  int main() {
+ int a=6;
+ int *ptr;
+ ptr=&a;
+ printf("The address of variable a is %u\n",ptr);
+ printf("The address of variable a is %u\n",*ptr);
+
+}
+``
+### Output
+```
+The address of variable a is 1763721828
+The address of variable a is 6
+```
+ # Module 5- Array
+ * A array is a collection of similar type of elements.
+ * It is a simple and fast way of storing multiple values under a single name.
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png" alt="Array" height="350px" width="450px">
+    ## Syntax of Array
+   ```
+   data_type array_name [size1] [size2]...[sizeN];
+   ```
+   ## Example
+   ```
+   #include <stdio.h>
+   int main() {
+   int marks[5];
+   for(int i=0;i<5;i++){
+     printf("Enter the English marks of students %d :",i+1);
+     scanf("%d",&marks[i]);
+   }
+ }
+ ``
+## Output
+```
+Enter the English marks of students 1 :70
+Enter the English marks of students 2 :60
+Enter the English marks of students 3 :90
+Enter the English marks of students 4 :98
+Enter the English marks of students 5 :78
+
+=== Code Execution Successful ===
+```
+# Module 6- String
+* In C, a string is defined as a sequence of characters terminated by a special character called the null character ('\0').
+* This null character indicates the end of the string.
+  ## Intializing Strings
+  * Since string is an array of characters,it can be initialized as follows:
+     <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/6492a64d1cd59_strings_in_c_03.jpg" alt="string" height="350px" width="450px">
+     ## Printing Strings
+    * A string can be printed character by character using printf and %s
+      ### Example
+      ```
+      #include<stdio.h>
+    int main(){
+    char st[]="hello isha";
+    printf("%s",st);
+  }
+``
+### Output
+```
+hello isha
+```
+## gets() and puts()
+* gets() is a function which can be used to recieve a multi-word string.
+* puts() is a function in a string to the print the output in a newline.
+  ### Example
+  ```
+  #include<stdio.h>
+   int main(){
+    char s[34];
+    printf("Enter your name : ");
+    gets(s);
+    puts(s);
+    printf("Your Name is %s ",s);   
+}
+``
+ ### Output
+```
+Enter your name : ISHA JANGRA
+ISHA JANGRA
+Your Name is ISHA JANGRA
+```
+  # References
