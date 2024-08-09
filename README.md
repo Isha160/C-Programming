@@ -395,12 +395,194 @@ a |= b: 5
 a >>= b: 0
 a <<= b: 0
 ```
-   
+## Unary Operators 
+* Unary operators are the operators that perform operations on a single operand to produce a new value.
+  ### Types of Unary Operators
+  #### Unary Plus (+) Operator
+* The unary plus operator doesn't affect the value of its operand. However, it can improve code readability and indicate the positive value.
+  ```
+  int x = +5;
+printf("%d\n", x);  // Output: 5
+``
+#### Unary Minus (-) Operator
+* The unary minus operator negates the value of its operand. If it's applied to a positive value, the value becomes negative, and vice versa.
+  ```
+  int x = -5;
+printf("%d\n", x);  // Output: -5
+``
+#### Increment (++) Operator
+* This unary operator in C increases the value of its operand by 1.
+ ```
+  int x = 5;
+x++;
+printf("%d\n", x);  // Output: 6
+```
+#### Decrement (--) Operator
+* The decrement operator decreases the value of its operand by 1.
+  ```
+int x = 5;
+x--;
+printf("%d\n", x);  // Output: 4
+``
+#### Address of (&) Operator in C
+* This operator returns the memory address of its operand.
+```
+int x = 5;
+printf("%p\n", &x);  // Output: Memory address of x
+```
+#### Sizeof() Operator
+* The sizeof operator returns the size (in bytes) of its operand.
+ ```
+int x;
+printf("%zu\n", sizeof(x));  // Output: Size of integer on your system, commonly 4
+```
 
-   
-  
+## Conditional/ Ternary Operator
+* Ternary operator is the shorthand way or writing an if-else statement.
+### Syntax 
+```
+Cndition? expression-if-true: expression-if-false;
+```
+### Example 
+```
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Enter value of a\n");
+    scanf("%d",&a);
+    (a<5)?printf("A is less than 5"):printf("A is not less than 5");
+    return 0;
+}
+```
+### Output
+```
+Enter value of a
+7
+A is not less than 5ements
 
-
-
-
-
+=== Code Execution Successful ===
+```
+# Module 3 - Control Statements Decision-Making
+* COntrol statements are the statements which are used to control the flow of execution of the instructions.
+    <img src="https://examradar.com/wp-content/uploads/2016/10/Classification-of-control-statements.png" alt="Control statements" width="450px" height="350px">
+    ## Branching Statements
+  ### If Statements
+  * "if" statement is a control flow structure that allows you to execute a block of code conditionally, based on whether a specified condition is true or false.
+   ##### Example
+  ```
+  #include <stdio.h>
+  int main() {
+    int number = 10;
+    if (number > 5) {
+        printf("The number is greater than 5.\n");
+     }
+  }
+  ```
+  #### Output
+  ```
+  The number is greater than 5.
+  ```
+  ### If-else Statements
+  * The if-else statement in C is a conditional control structure that allows you to execute one block of code if a condition is true, and another block of code if the condition is false.
+    #### Example
+    ```
+    #include <stdio.h>
+    int main() {
+    int number = 3;
+    if (number > 5) {
+        printf("The number is greater than 5.\n");
+    } else {
+        printf("The number is 5 or less.\n");
+      }
+  }
+  ``
+  #### Output
+  ```
+  The number is 5 or less.
+  ```
+  ### If-else-if Statements
+  * The if-else if statement in C is used to test multiple conditions in sequence.
+  * It allows you to execute different blocks of code depending on which condition is true.
+    #### Example
+    ```
+    #include <stdio.h>  
+    int main() {
+    int number = 0;
+    if (number > 0) {
+        printf("The number is positive.\n");
+    } else if (number < 0) {
+        printf("The number is negative.\n");
+    } else {
+        printf("The number is zero.\n");
+    }
+ }
+``
+#### Output
+```
+The number is zero.
+```
+### Switch Statements
+* The switch statement in C is a control flow structure that allows the execution of different code blocks based on the value of an expression.
+#### Exaample
+```
+#include <stdio.h>
+int main() {
+    int day = 3;
+    switch (day) {
+        case 1:
+            printf("Monday\n");
+            break;
+        case 2:
+            printf("Tuesday\n");
+            break;
+        case 3:
+            printf("Wednesday\n");
+            break;
+        case 4:
+            printf("Thursday\n");
+            break;
+        case 5:
+            printf("Friday\n");
+            break;
+        case 6:
+            printf("Saturday\n");
+            break;
+        case 7:
+            printf("Sunday\n");
+            break;
+        default:
+            printf("Invalid day\n");
+            break;
+    }
+}
+```
+#### Output
+```
+Wednesday
+```
+## Iterative/ Loop Statements 
+* Iterative or loop statements are used to execute a block of code repeatedly based on a condition.
+*  They allow for performing repetitive tasks efficiently without needing to write the same code multiple times.
+   ### For Loop
+   * Loop statements are used to execute the set of instructions in a repeated order.
+   *  The execution of the set of instructions depends upon a particular condition.
+   *  #### Example
+    ```
+    #include <stdio.h>
+     int main() {
+    // Loop from 0 to 4
+    for (int i = 0; i < 5; i++) {
+        printf("Number %d\n", i);
+    }
+}
+``
+### Output
+```
+Number 0
+Number 1
+Number 2
+Number 3
+Number 4
+```
+### While Loop
+* The while loop in C is a control flow statement that allows you to execute a block of code repeatedly as long as a specified condition is true
