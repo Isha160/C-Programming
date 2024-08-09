@@ -427,15 +427,17 @@ a <<= b: 0
   ### Types of Unary Operators
   #### Unary Plus (+) Operator
 * The unary plus operator doesn't affect the value of its operand. However, it can improve code readability and indicate the positive value.
+  
   ```
   int x = +5;
-printf("%d\n", x);  // Output: 5
+    printf("%d\n", x);  // Output: 5
 ``
 #### Unary Minus (-) Operator
 * The unary minus operator negates the value of its operand. If it's applied to a positive value, the value becomes negative, and vice versa.
+* 
   ```
   int x = -5;
-printf("%d\n", x);  // Output: -5
+  printf("%d\n", x);  // Output: -5
 ``
 #### Increment (++) Operator
 * This unary operator in C increases the value of its operand by 1.
@@ -446,11 +448,12 @@ printf("%d\n", x);  // Output: 6
 ```
 #### Decrement (--) Operator
 * The decrement operator decreases the value of its operand by 1.
-  ```
+  
+```
 int x = 5;
 x--;
 printf("%d\n", x);  // Output: 4
-``
+```
 #### Address of (&) Operator in C
 * This operator returns the memory address of its operand.
 ```
