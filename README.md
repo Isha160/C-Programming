@@ -566,6 +566,12 @@ Wednesday
    ### For Loop
    * Loop statements are used to execute the set of instructions in a repeated order.
    *  The execution of the set of instructions depends upon a particular condition.
+     #### Syntax of for Loop
+   ```
+   for (initialization; condition; Increment/decrement) {
+    // Code to execute on each iteration
+}
+``
    *  #### Example
     ```
     #include <stdio.h>
@@ -585,4 +591,134 @@ Number 3
 Number 4
 ```
 ### While Loop
-* The while loop in C is a control flow statement that allows you to execute a block of code repeatedly as long as a specified condition is true
+* The while loop in C is a control flow statement that allows you to execute a block of code repeatedly as long as a specified condition is true.
+  #### Syntax of While Loop
+  ```
+  while (condition) {
+  // code block to be executed
+}
+``
+#### Example
+```
+#include <stdio.h>
+int main() {
+    int i = 0;
+    // Loop from 0 to 4
+    while (i < 5) {
+        printf("Number %d\n", i);
+        i++; // Increment the loop variable
+    }
+}
+```
+#### Output
+```
+Number 0
+Number 1
+Number 2
+Number 3
+Number 4
+```
+### do While Loop
+* The do-while loop is a control flow statement that allows you to execute a block of code repeatedly as long as a specified condition is true.
+* The do-while loop body is executed at least once before the condition is tested.
+ ####  Syntax of do While Loop
+ ```
+do {
+    // Code to execute at least once and then repeatedly while condition is true
+} while (condition);
+```
+#### Example
+```
+#include <stdio.h>
+int main() {
+    int i = 0;
+    // Loop that runs as long as i is less than 5
+    do {
+        printf("Number %d\n", i);
+        i++; // Increment the loop variable
+    } while (i < 5);
+}
+```
+#### Output
+```
+Number 0
+Number 1
+Number 2
+Number 3
+Number 4
+```
+## Jump Statements
+* Jump statements in the C programming language allow programmers to alter the normal flow of execution in their code.
+* jump Statements are of 3 types
+i)   Break
+ii)  continue
+iii) goto
+  ### Break Statements
+  * The break statement is used to exit from a loop.
+    #### Example
+    ```
+    #include <stdio.h>
+    int main() {
+    for (int i = 0; i < 10; i++) {
+        if (i == 5) {
+            break; // Exit the loop when i equals 5
+        }
+        printf("%d ", i);
+    }
+}
+``
+#### Output
+  ```
+0 1 2 3 4
+```
+### Continue Statements
+* The continue statement is used to skip the remaining part of the loop body for the current iteration and proceed with the next iteration of the loop.
+  #### Example
+  ```
+  #include <stdio.h>
+   int main() {
+    for (int i = 0; i < 10; i++) {
+        if (i % 2 == 0) {
+            continue; // Skip the rest of the loop body for even numbers
+        }
+        printf("%d ", i);
+    }
+    return 0;
+}
+``
+#### Output
+```
+1 3 5 7 9 
+```
+### goto Statements
+* The goto statement provides a way to transfer control to another part of the program.
+  #### Example
+  ```
+  #include <stdio.h>
+   int main() {
+    int i = 0;
+  
+    start: // This is the label we will jump to
+    printf("Value of i: %d\n", i);
+    i++;
+
+    if (i < 5) {
+        goto start; // Jump to the label 'start'
+    }
+
+    printf("Loop finished\n");
+  }
+``
+#### Output
+```
+Value of i: 0
+Value of i: 1
+Value of i: 2
+Value of i: 3
+Value of i: 4
+Loop finished
+```
+# Module 4- Pointers
+
+
+  
