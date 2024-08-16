@@ -174,16 +174,15 @@ Highest grade: A
  ## Arithmetic Operators:
  * The arithmetic operators are used to perform arithmetic/mathematical operations on operands.
  ### These are Arithmetic Operators : 
-   
-     | S. No. | Symbol | Operator | Description | Syntax |
-     |--------|--------|----------|-------------|--------|
-        1	    +         Plus	       Adds two numeric values.	                            a + b
-        2	    –	        Minus	      Subtracts right operand from left operand.         	 a – b
-        3	    *	        Multiply   	Multiply two numeric values.                      	  a * b
-        4	    /      	  Divide     	Divide two numeric values.	                          a / b
-        5	    %        	Modulus    	Returns the remainder after diving the left         	a % b
-                                   operand with the right operand.
-   
+
+   | S. No. | Symbol | Operator | Description | Syntax |
+|---|---|---|---|---|
+| 1 | `<` | Less than | Returns true if the left operand is less than the right operand. Else false | a < b |
+| 2 | `>` | Greater than | Returns true if the left operand is greater than the right operand. Else false | a > b |
+| 3 | `<=` | Less than or equal to | Returns true if the left operand is less than or equal to the right operand. Else false | a <= b |
+| 4 | `>=` | Greater than or equal to | Returns true if the left operand is greater than or equal to right operand. Else false | a >= b |
+| 5 | `==` | Equal to | Returns true if both the operands are equal. | a == b |
+| 6 | `!=` | Not equal to | Returns true if both the operands are NOT equal. | a != b |
   
    *Program for Arithmetic Operator
    ```
@@ -219,15 +218,14 @@ Enter Second number: 9
 * All these operators are binary operators that return true or false values as the result of comparison.
 
 ### These are Relational Operators
-```
-S. No.	  Symbol	     Operator	                              Description	                                                                  Syntax
-1	         <	         Less than	                  Returns true if the left operand is less than the right operand. Else false	             a < b
-2         	>	         Greater than       	        Returns true if the left operand is greater than the right operand. Else false	          a > b
-3	        <=	         Less than or equal to      	Returns true if the left operand is less than or equal to the right operand. Else false	 a <= b
-4	        >=	         Greater than or equal to	   Returns true if the left operand is greater than or equal to right operand. Else false	  a >= b
-5     	   ==	         Equal to	                   Returns true if both the operands are equal.	                                            a == b
-6	        !=	          Not equal to	              Returns true if both the operands are NOT equal.                                        	a != b
-```
+| S. No. | Symbol | Operator | Description | Syntax |
+|---|---|---|---|---|
+| 1 | < | Less than | Returns true if the left operand is less than the right operand. Else false | a < b |
+| 2 | > | Greater than | Returns true if the left operand is greater than the right operand. Else false | a > b |
+| 3 | <= | Less than or equal to | Returns true if the left operand is less than or equal to the right operand. Else false | a <= b |
+| 4 | >= | Greater than or equal to | Returns true if the left operand is greater than or equal to right operand. Else false | a >= b |
+| 5 | == | Equal to | Returns true if both the operands are equal. | a == b |
+| 6 | != | Not equal to | Returns true if both the operands are NOT equal. | a != b |
  ### Program for Relational Operators
 ```
 #include <stdio.h>
@@ -264,12 +262,12 @@ Enter two integers: 10 20
 * The logical operators in c help a user determine if the results would be true or false.
 * These are Logical Operators:
   
-```
-S.No.	Symbol	  Operator	     Description	                                          Syntax
-1	     &&	     Logical AND	  Returns true if both the operands are true.	          a && b
-2	     ||	     Logical OR	   Returns true if both or any of the operand is true.	  a || b
-3	     !	      Logical NOT	  Returns true if the operand is false.	                 !a
-```
+| Operator | Symbol | Description | Syntax |
+|---|---|---|---|
+| Logical AND | `&&` | Returns true if both operands are true. | `a && b` |
+| Logical OR | `||` | Returns true if at least one operand is true. | `a || b` |
+| Logical NOT | `!` | Returns the opposite truth value of the operand. | `!a` |
+
 
 ### Program for Logical Operators
 ```
@@ -317,16 +315,16 @@ a is positive.
 * The Bitwise operators are used to perform bit-level operations on the operands.
 * Mathematical operations such as addition, subtraction, multiplication, etc. can be performed at the bit level for faster processing.
 * These are Bitwise Operators
-  ```
-    S.No.	  Symbol	  Operator	                Description	                                                                                  Syntax
-     1	       &	     Bitwise AND	             Performs bit-by-bit AND operation and returns the result.	                                     a & b
-     2	       |	     Bitwise OR	              Performs bit-by-bit OR operation and returns the result.                                      	a | b
-     3	       ^	     Bitwise XOR	             Performs bit-by-bit XOR operation and returns the result.                                      	a ^ b
-     4	       ~	     Bitwise First Complement	Flips all the set and unset bits on the number.	                                                 ~a
-     5	      <<     	Bitwise Leftshift	       Shifts the number in binary form by one place in the operation and returns the result.         	a << b
-     6	      >>     	Bitwise Rightshilft	     Shifts the number in binary form by one place in the operation and returns the result.	         a >> b
 
-``
+ | S.No. | Symbol | Operator | Description | Syntax |
+|---|---|---|---|---|
+| 1 | & | Bitwise AND | Performs bit-by-bit AND operation and returns the result. | 'a & b' |
+| 2 | \| | Bitwise OR | Performs bit-by-bit OR operation and returns the result. | a \| b |
+| 3 | ^ | Bitwise XOR | Performs bit-by-bit XOR operation and returns the result. | a ^ b |
+| 4 | ~ | Bitwise First Complement | Flips all the set and unset bits on the number. | ~a |
+| 5 | << | Bitwise Leftshift | Shifts the number in binary form by one place in the operation and returns the result. | a << b |
+| 6 | >> | Bitwise Rightshift | Shifts the number in binary form by one place in the operation and returns the result. | a >> b |
+
 
 ### Program for Bitwise Operators
 
@@ -376,20 +374,22 @@ Enter two integers: 5 3
 ## Assignment Operators
 * Assignment operators are used to assign value to a variable.
 * These are Assignment Operators :
-  ```
-  S. No.  	Symbol	     Operator	                                 Description	                                                                   Syntax
-    1	      =	       Simple Assignment	      Assign the value of the right operand to the left operand.	                                         a = b
-    2	      +=	      Plus and assign	       Add the right operand and left operand and assign this value to the left operand.	                   a += b
-    3	      -=	      Minus and assign      	Subtract the right operand and left operand and assign this value to the left operand.	              a -= b
-    4      	*=	     Multiply and assign	    Multiply the right operand and left operand and assign this value to the left operand.	              a *= b
-    5      	/=	      Divide and assign	     Divide the left operand with the right operand and assign this value to the left operand.	           a /= b
-    6      	%=	     Modulus and assign	    Assign the remainder in the division of left operand with the right operand to the left operand.     	a %= b
-    7	      &=	     AND and assign	        Performs bitwise AND and assigns this value to the left operand.	                                     a &= b
-    8	      |=	     OR and assign          Performs bitwise OR and assigns this value to the left operand.	                                      a |= b
-   9	       ^=	     XOR and assign	        Performs bitwise XOR and assigns this value to the left operand.                                      	a ^= b
-   10      	>>=	    Rightshift and assign	 Performs bitwise Rightshift and assign this value to the left operand.                               	a >>= b
-   11      	<<=	    Leftshift and assign	  Performs bitwise Leftshift and assign this value to the left operand.	                                a <<= b
-				```
+
+| S. No. | Symbol | Operator | Description | Syntax |
+|---|---|---|---|---|
+| 1 | = | Simple Assignment | Assign the value of the right operand to the left operand. | `a = b` |
+| 2 | += | Plus and assign | Add the right operand and left operand and assign this value to the left operand. | `a += b` |
+| 3 | -= | Minus and assign | Subtract the right operand and left operand and assign this value to the left operand. | `a -= b` |
+| 4 | *= | Multiply and assign | Multiply the right operand and left operand and assign this value to the left operand. | `a *= b` |
+| 5 | /= | Divide and assign | Divide the left operand with the right operand and assign this value to the left operand. | `a /= b` |
+| 6 | %= | Modulus and assign | Assign the remainder in the division of left operand with the right operand to the left operand. | `a %= b` |
+| 7 | &= | AND and assign | Performs bitwise AND and assigns this value to the left operand. | `a &= b` |
+| 8 | |= | OR and assign | Performs bitwise OR and assigns this value to the left operand. | `a |= b` |
+| 9 | ^= | XOR and assign | Performs bitwise XOR and assigns this value to the left operand. | `a ^= b` |
+| 10 | >>= | Rightshift and assign | Performs bitwise Rightshift and assign this value to the left operand. | `a >>= b` |
+| 11 | <<= | Leftshift and assign | Performs bitwise Leftshift and assign this value to the left operand. | `a <<= b` |
+
+				
 ### Example of Assignment Operators
 ```
 #include <stdio.h>
@@ -849,3 +849,4 @@ ISHA JANGRA
 Your Name is ISHA JANGRA
 ```
   # References
+ 
