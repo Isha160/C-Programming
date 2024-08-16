@@ -174,15 +174,16 @@ Highest grade: A
  ## Arithmetic Operators:
  * The arithmetic operators are used to perform arithmetic/mathematical operations on operands.
  ### These are Arithmetic Operators : 
-   ```
-     S. No.	 Symbol	   Operator	             Description             	                  Syntax
+   
+     | S. No. | Symbol | Operator | Description | Syntax |
+     |--------|--------|----------|-------------|--------|
         1	    +         Plus	       Adds two numeric values.	                            a + b
         2	    –	        Minus	      Subtracts right operand from left operand.         	 a – b
         3	    *	        Multiply   	Multiply two numeric values.                      	  a * b
         4	    /      	  Divide     	Divide two numeric values.	                          a / b
         5	    %        	Modulus    	Returns the remainder after diving the left         	a % b
                                    operand with the right operand.
-   ```
+   
   
    *Program for Arithmetic Operator
    ```
