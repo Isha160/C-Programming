@@ -3,18 +3,18 @@
 <img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="350px">
 
 # Table of Content
-### Introduction of C Programming
+### Module 1- Introduction of C Programming
   * Introduction
   * Features
   * Comments
   * First program in C
-### Installation
-### System Requirement
-### Module 1 - Variables, Constant & Keywords
+### Module 2- Installation
+### Module 3- System Requirement
+### Module 4- Variables, Constant & Keywords
   * About Variables
   * About Constant
   *  About Keywords
-### Module 2- Operators
+### Module 5- Operators
   * Arithmetic Operators
   * Relational Operators
   * Logical Operators
@@ -22,21 +22,21 @@
   * Assignment Operators
   * Unary Operators
   * Conditional/Ternary Operators
-### Module 3- Control Statements & Decision Making
+### Module 6- Control Statements & Decision Making
   * Braching Statements
   * Iterative/ Loops Statements
   * Jump Statements
-### Module 4- Pointers
+### Module 7- Pointers
   * About Poiters
   * Address of (&) Operator
-### Module 5- Array
-### Module 6- String
+### Module 8- Array
+### Module 9- String
   * Intializing String
   * Printing Strings
   * Gets() and Puts() 
 
 
-# Introduction of C Programming
+# Module 1- Introduction of C Programming
 * Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instrutions to the computer.
 * C is one of the oldest and finest Programming language which is developed by Dennis Ritchie in 1972.
 * It was developed as a system programming language to write the UNIX operating system.
@@ -74,8 +74,43 @@ int main(){
 ```
 Hello World
 ```
+# Module 2- Installation
 
-  # Module 1- Variables, Constant & Keywords
+To download Visual Studio Code ,you require to go through with the following steps:
+* Step 1:- Search on browser to Download VsCode. 
+* Step 2:- click on the first link.<a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+* Step 3:- Select the appropriate download per your Operating System, If you are on a Ubuntu: your download will be a .deb file.
+<img src="https://res.cloudinary.com/omaha-code/w_768,h_502,c_fit/omaha-code-cdn/2018/12/Download-Visual-Studio-Code.png" alt="VS Code" height="350px" width="450px">
+* Step 4:- After completion VS Code, Check your download Folder.
+* Step 5:- Open Terminal in Linux or for shortcut click (ctrl + alt + t)
+* Step 6:- Check if the system up-to-date using following command :
+```
+          $ sudo apt update
+```
+* Step 7. After update system Now you can Install VS Code using the following command:
+
+```sudo dpkg -i location of package. ``` (Find location from ls command. after this VsCode installed successfully)
+ 
+-* Step 8. Open VS Code.          
+
+   ![1](https://github.com/Amitkumar0054/HTML/assets/128821680/f181bcca-9f45-47e6-beda-5356498ac1b9)
+
+
+# Module 3- System Requirement
+To use Visual Studio Code (VS Code) you need to ensure your system meets the following requirements for both VS Code.
+* OS: Ubuntu 14.04+, Fedora 24+, CentOS 7+
+* RAM: At least 4 GB of RAM (8 GB or more recommended)
+* Disk Space: 512 MB of free disk space (2 GB or more recommended)
+* Processor: pentium or faster processor
+
+  My system configurations and software's versions:
+* OS: Ubuntu 24.04 LTS
+* RAM: 8GB
+* Disk Space: 256 GB
+* Processor: 11th Gen Intel Core i3
+* VS Code Version: 1.91.1
+
+  # Module 4- Variables, Constant & Keywords
   ## Variables
   * Variables in programming are used to store piece of information.
   * It's type of COntainers storing some data (for eg. we store rice,dal, sugar in different containers)
@@ -165,7 +200,9 @@ Highest grade: A
   
  <img src="https://techskillguru.com/cdata/cprogramming/images/C-Keywords.png" alt="Features" height="350px" width="350px">
 
- # Module 2- Operators
+ 
+
+ # Module 5- Operators
  * In Programming, operators are symbols that represent operations to be performed on one or more operands.
  * An operator is defined as the symbol that helps us to perform some specific mathematical, relational, bitwise, conditional, or logical computations on values and variables.
     
@@ -493,7 +530,7 @@ A is not less than 5ements
 
 === Code Execution Successful ===
 ```
-# Module 3 - Control Statements Decision-Making
+# Module 6 - Control Statements Decision-Making
 * COntrol statements are the statements which are used to control the flow of execution of the instructions.
     <img src="https://examradar.com/wp-content/uploads/2016/10/Classification-of-control-statements.png" alt="Control statements" width="450px" height="350px">
     ## Branching Statements
@@ -749,7 +786,7 @@ Value of i: 3
 Value of i: 4
 Loop finished
 ```
-# Module 4- Pointers
+# Module 7- Pointers
 * A pointer is a variable that stores the address of another variable.
   ## Syntax of pointer
   ```
@@ -779,7 +816,7 @@ Loop finished
 The address of variable a is 1763721828
 The address of variable a is 6
 ```
- # Module 5- Array
+ # Module 8- Array
  * A array is a collection of similar type of elements.
  * It is a simple and fast way of storing multiple values under a single name.
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png" alt="Array" height="350px" width="450px">
@@ -808,7 +845,7 @@ Enter the English marks of students 5 :78
 
 === Code Execution Successful ===
 ```
-# Module 6- String
+# Module 9- String
 * In C, a string is defined as a sequence of characters terminated by a special character called the null character ('\0').
 * This null character indicates the end of the string.
   ## Intializing Strings
