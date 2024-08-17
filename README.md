@@ -22,7 +22,7 @@
   * Assignment Operators
   * Unary Operators
   * Conditional/Ternary Operators
-### Module 3- COntrol Statements & Decision Making
+### Module 3- Control Statements & Decision Making
   * Braching Statements
   * Iterative/ Loops Statements
   * Jump Statements
@@ -850,3 +850,7 @@ Your Name is ISHA JANGRA
 ```
   # References
  
+* https://www.studocu.com/row/document/tribhuvan-vishwavidalaya/information-technology/c-programming-notes/2664815
+* https://www.geeksforgeeks.org/operators-in-c/
+* https://www.scholarhat.com/tutorial/c/loops-in-c
+* https://www.javatpoint.com/c-gets-puts#:~:text=C%20puts()%20function&text=The%20puts()%20function%20is,being%20printed%20on%20the%20console.
