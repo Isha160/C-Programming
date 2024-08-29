@@ -179,10 +179,8 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
 
  ## Arithmetic Operators:
  * The arithmetic operators are used to perform arithmetic/mathematical operations on operands.
- ### These are Arithmetic Operators : 
-
-   | S. No. | Symbol | Operator | Description | Syntax |
-|---|---|---|---|---|
+ ### These are Arithmetic Operators :
+ 
 | S. No. | Symbol | Operator | Description                                     | Syntax  |
 |--------|--------|----------|-------------------------------------------------|---------|
 | 1      | +      | Plus     | Adds two numeric values.                        | a + b   |
@@ -268,11 +266,11 @@ Enter two integers: 10 20
 * The logical operators in c help a user determine if the results would be true or false.
 * These are Logical Operators:
   
-| Operator | Symbol | Description | Syntax |
-|---|---|---|---|
-| Logical AND | `&&` | Returns true if both operands are true. | `a && b` |
-| Logical OR | `||` | Returns true if at least one operand is true. | `a || b` |
-| Logical NOT | `!` | Returns the opposite truth value of the operand. | `!a` |
+| Operator    | Symbol | Description                                | Syntax   |
+|-------------|--------|--------------------------------------------|----------|
+| Logical AND | `&&`   | Returns true if both operands are true.     | `a && b` |
+| Logical OR  | `||`   | Returns true if at least one operand is true. | `a || b` |
+| Logical NOT | `!`    | Returns the opposite truth value of the operand. | `!a`     |
 
 ### Program for Logical Operators
 ```
