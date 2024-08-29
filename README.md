@@ -378,7 +378,7 @@ A is not less than 5ements
 === Code Execution Successful ===
 ```
 # Control Statements & Decision Making
-* COntrol statements are the statements which are used to control the flow of execution of the instructions.
+* Control statements are the statements which are used to control the flow of execution of the instructions.
     <img src="https://examradar.com/wp-content/uploads/2016/10/Classification-of-control-statements.png" alt="Control statements" width="450px" height="350px">
     ## Branching Statements
   ### If Statements
@@ -402,15 +402,15 @@ A is not less than 5ements
     #### Example
     ```
     #include <stdio.h>
-    int main() {
-    int number = 3;
-    if (number > 5) {
+     int main() {
+     int number = 3;
+     if (number > 5) {
         printf("The number is greater than 5.\n");
-    } else {
+       } else {
         printf("The number is 5 or less.\n");
-      }
-  }
-  ``
+       }
+     }
+    ``
   #### Output
   ```
   The number is 5 or less.
@@ -429,9 +429,9 @@ A is not less than 5ements
         printf("The number is negative.\n");
     } else {
         printf("The number is zero.\n");
-    }
- }
-``
+     }
+    }```
+   
 #### Output
 ```
 The number is zero.
@@ -567,7 +567,6 @@ Number 4
 * jump Statements are of 3 types
 i)   Break
 ii)  continue
-iii) goto
   ### Break Statements
   * The break statement is used to exit from a loop.
     #### Example
@@ -604,34 +603,6 @@ iii) goto
 #### Output
 ```
 1 3 5 7 9 
-```
-### goto Statements
-* The goto statement provides a way to transfer control to another part of the program.
-  #### Example
-  ```
-  #include <stdio.h>
-   int main() {
-    int i = 0;
-  
-    start: // This is the label we will jump to
-    printf("Value of i: %d\n", i);
-    i++;
-
-    if (i < 5) {
-        goto start; // Jump to the label 'start'
-    }
-
-    printf("Loop finished\n");
-  }
-``
-#### Output
-```
-Value of i: 0
-Value of i: 1
-Value of i: 2
-Value of i: 3
-Value of i: 4
-Loop finished
 ```
 # Pointer
 * A pointer is a variable that stores the address of another variable.
