@@ -73,7 +73,7 @@ To download Visual Studio Code ,you require to go through with the following ste
    ![1](https://github.com/Amitkumar0054/HTML/assets/128821680/f181bcca-9f45-47e6-beda-5356498ac1b9)
 
 
-# System Requirement
+# System_Requirement
 To use Visual Studio Code (VS Code) you need to ensure your system meets the following requirements for both VS Code.
 * OS: Ubuntu 14.04+, Fedora 24+, CentOS 7+
 * RAM: At least 4 GB of RAM (8 GB or more recommended)
