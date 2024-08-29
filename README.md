@@ -8,7 +8,7 @@
 - [System Requirement](#System-Requirement)
 - [Variables, Constant and Keywords](#Variables,-Constant-and-Keywords)
 - [Operators](#Operators) 
-- [Control_Statements_&_Decision_Making](#Control_Statements_&_Decision_Making)
+- [Control Statements & Decision Making](#Control-Statements-&-Decision-Making)
 - [Pointers](#Pointer)
 - [Array](#Array)
 - [String](#String)
@@ -507,7 +507,7 @@ A is not less than 5ements
 
 === Code Execution Successful ===
 ```
-# Module 6 - Control Statements Decision-Making
+# Control Statements & Decision Making
 * COntrol statements are the statements which are used to control the flow of execution of the instructions.
     <img src="https://examradar.com/wp-content/uploads/2016/10/Classification-of-control-statements.png" alt="Control statements" width="450px" height="350px">
     ## Branching Statements
@@ -763,7 +763,7 @@ Value of i: 3
 Value of i: 4
 Loop finished
 ```
-# Module 7- Pointers
+# Pointers
 * A pointer is a variable that stores the address of another variable.
   ## Syntax of pointer
   ```
@@ -793,7 +793,7 @@ Loop finished
 The address of variable a is 1763721828
 The address of variable a is 6
 ```
- # Module 8- Array
+ # Array
  * A array is a collection of similar type of elements.
  * It is a simple and fast way of storing multiple values under a single name.
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png" alt="Array" height="350px" width="450px">
@@ -822,7 +822,7 @@ Enter the English marks of students 5 :78
 
 === Code Execution Successful ===
 ```
-# Module 9- String
+# String
 * In C, a string is defined as a sequence of characters terminated by a special character called the null character ('\0').
 * This null character indicates the end of the string.
   ## Intializing Strings
