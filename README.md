@@ -123,8 +123,8 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
   Height: 5.9
   Initial: A
   Salary: 50000.75
-  Name: Alice
- ``
+  Name: Alice``
+ 
 ## Constant
 * The constants in C are the read-only variables whose values cannot be modified once they are declared in the C program.
 * The type of constant can be an integer constant, a floating pointer constant, a string constant, or a character constant.
