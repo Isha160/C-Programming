@@ -3,38 +3,19 @@
 <img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="350px">
 
 # Table of Content
-### Module 1- Introduction of C Programming
-  - [Introduction of C Programming](#Introduction)
-  - [Features](#Features)
-  * Comments
-  * First program in C
-### Module 2- Installation
-### Module 3- System Requirement
-### Module 4- Variables, Constant & Keywords
-  * About Variables
-  * About Constant
-  *  About Keywords
-### Module 5- Operators 
-  * Arithmetic Operators
-  * Relational Operators
-  * Logical Operators
-  * Bitwise Operators
-  * Assignment Operators
-  * Unary Operators
-  * Conditional/Ternary Operators
+### - [Introduction of C Programming](#Introduction)
+  
+  
+### - Installation
+### - System Requirement
+### - Variables, Constant & Keywords
+### - Operators 
+  
 ### Module 6- Control Statements & Decision Making
-  * Braching Statements
-  * Iterative/ Loops Statements
-  * Jump Statements
+ 
 ### Module 7- Pointers
-  * About Poiters
-  * Address of (&) Operator
 ### Module 8- Array
 ### Module 9- String
-  * Intializing String
-  * Printing Strings
-  * Gets() and Puts() 
-
 
 # Module 1- Introduction of C Programming
 * Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instrutions to the computer.
