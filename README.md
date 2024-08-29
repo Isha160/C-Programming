@@ -54,19 +54,19 @@
 To download Visual Studio Code ,you require to go through with the following steps:
 * Step 1:- Search on browser to Download VsCode. 
 * Step 2:- click on the first link.<a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-* Step 3:- Select the appropriate download per your Operating System, If you are on a Ubuntu: your download will be a .deb file.
+* Step 3:- Select the appropriate download as per your Operating System, If you are on a Ubuntu: your download will be a .deb file.
 <img src="https://res.cloudinary.com/omaha-code/w_768,h_502,c_fit/omaha-code-cdn/2018/12/Download-Visual-Studio-Code.png" alt="VS Code" height="350px" width="450px">
-* Step 4:- After completion VS Code, Check your download Folder.
+* Step 4:- After ddowload completion of VS Code, Check your download Folder.
 * Step 5:- Open Terminal in Linux or for shortcut click (ctrl + alt + t)
 * Step 6:- Check if the system up-to-date using following command :
 ```
           $ sudo apt update
 ```
-* Step 7. After update system Now you can Install VS Code using the following command:
+* Step 7:- After update system Now you can Install VS Code using the following command:
 
 ```sudo dpkg -i location of package. ``` (Find location from ls command. after this VsCode installed successfully)
  
--* Step 8. Open VS Code.          
+* Step 8:- Open VS Code.          
 
    ![1](https://github.com/Amitkumar0054/HTML/assets/128821680/f181bcca-9f45-47e6-beda-5356498ac1b9)
 
