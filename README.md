@@ -3,7 +3,7 @@
 <img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="450px">
 
 # Table of Content
-- [Introduction of C Programming](#introduction)
+- [Introduction of C Programming](#Introduction)
 - [Installation](#Installation)
 - [System_Requirement](#System_Requirement)
 - [Variables,Constant,Keywords](#Variables,Constant,Keywords)
@@ -73,7 +73,7 @@ To download Visual Studio Code ,you require to go through with the following ste
    ![1](https://github.com/Amitkumar0054/HTML/assets/128821680/f181bcca-9f45-47e6-beda-5356498ac1b9)
 
 
-# Module 3- System Requirement
+# System Requirement
 To use Visual Studio Code (VS Code) you need to ensure your system meets the following requirements for both VS Code.
 * OS: Ubuntu 14.04+, Fedora 24+, CentOS 7+
 * RAM: At least 4 GB of RAM (8 GB or more recommended)
@@ -87,7 +87,7 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
 * Processor: 11th Gen Intel Core i3
 * VS Code Version: 1.91.1
 
-  # Module 4- Variables, Constant & Keywords
+  # Variables, Constant & Keywords
   ## Variables
   * Variables in programming are used to store piece of information.
   * It's type of COntainers storing some data (for eg. we store rice,dal, sugar in different containers)
@@ -179,7 +179,7 @@ Highest grade: A
 
  
 
- # Module 5- Operators
+ # Operators
  * In Programming, operators are symbols that represent operations to be performed on one or more operands.
  * An operator is defined as the symbol that helps us to perform some specific mathematical, relational, bitwise, conditional, or logical computations on values and variables.
     
