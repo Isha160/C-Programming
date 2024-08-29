@@ -4,8 +4,8 @@
 
 # Table of Content
 ### Module 1- Introduction of C Programming
-  * Introduction
-  * Features
+  - [Introduction](#Introduction of C Programming)
+  - [Features](#Features)
   * Comments
   * First program in C
 ### Module 2- Installation
@@ -14,7 +14,7 @@
   * About Variables
   * About Constant
   *  About Keywords
-### Module 5- Operators
+### Module 5- Operators 
   * Arithmetic Operators
   * Relational Operators
   * Logical Operators
@@ -42,7 +42,7 @@
 * It was developed as a system programming language to write the UNIX operating system.
 * C Programming is used to program embedded systems where programs need to run faster in limited memory.
 
-# Features of C 
+# Features 
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/08/Features-of-C.jpg" alt="Features" height="350px" width="350px">
 
  # Comments in C
