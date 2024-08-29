@@ -651,9 +651,9 @@ The address of variable a is 6
    for(int i=0;i<5;i++){
      printf("Enter the English marks of students %d :",i+1);
      scanf("%d",&marks[i]);
+    }
    }
- }
- ``
+  ``
 ## Output
 ```
 Enter the English marks of students 1 :70
@@ -667,20 +667,22 @@ Enter the English marks of students 5 :78
 # String
 * In C, a string is defined as a sequence of characters terminated by a special character called the null character ('\0').
 * This null character indicates the end of the string.
-  ## Intializing Strings
+  ## Initializing Strings
   * Since string is an array of characters,it can be initialized as follows:
      <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/6492a64d1cd59_strings_in_c_03.jpg" alt="string" height="350px" width="450px">
-     ## Printing Strings
-    * A string can be printed character by character using printf and %s
+ ## Printing Strings
+ * A string can be printed character by character using printf and %s
       ### Example
       ```
       #include<stdio.h>
-    int main(){
-    char st[]="hello isha";
-    printf("%s",st);
-  }
-``
+      int main(){
+      char st[]="hello isha";
+      printf("%s",st);
+        }
+     ```
+     
 ### Output
+
 ```
 hello isha
 ```
@@ -696,8 +698,8 @@ hello isha
     gets(s);
     puts(s);
     printf("Your Name is %s ",s);   
-}
-``
+  }
+  ```
  ### Output
 ```
 Enter your name : ISHA JANGRA
