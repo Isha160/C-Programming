@@ -3,19 +3,15 @@
 <img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="350px">
 
 # Table of Content
-### - [Introduction of C Programming](#Introduction)
-  
-  
-### - Installation
-### - System Requirement
-### - Variables, Constant & Keywords
-### - Operators 
-  
-### Module 6- Control Statements & Decision Making
- 
-### Module 7- Pointers
-### Module 8- Array
-### Module 9- String
+- [Introduction of C Programming](#Introduction)
+- [Installation](#Installation)
+- [System Requirement](#System Requirement)
+- [Variables, Constant & Keywords](#Variables, Constant & Keywords)
+- [Operators](#Operators) 
+- [Control Statements & Decision Making](#Control Statements & Decision Making)
+- [Pointers](#Pointer)
+- [Array](#Array)
+- [String](#String)
 
 # Module 1- Introduction of C Programming
 * Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instrutions to the computer.
