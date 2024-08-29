@@ -4,7 +4,7 @@
 
 # Table of Content
 ### Module 1- Introduction of C Programming
-  - [Introduction](#Introduction of C Programming)
+  - [Introduction of C Programming](#Introduction)
   - [Features](#Features)
   * Comments
   * First program in C
