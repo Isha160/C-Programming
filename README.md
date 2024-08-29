@@ -3,8 +3,8 @@
 <img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="450px">
 
 # Table of Content
-- [Introduction of C Programming](#Introduction)
-- [Installation](#Installation)
+- [Introduction of C Programming](#introduction)
+- [Installation](#installation)
 - [System_Requirement](#System_Requirement)
 - [Variables,Constant,Keywords](#Variables,Constant,Keywords)
 - [Operators](#Operators) 
@@ -13,7 +13,7 @@
 - [Array](#Array)
 - [String](#String)
 
-# Module 1- Introduction of C Programming
+# Introduction of C Programming
 * Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instrutions to the computer.
 * C is one of the oldest and finest Programming language which is developed by Dennis Ritchie in 1972.
 * It was developed as a system programming language to write the UNIX operating system.
@@ -51,7 +51,7 @@ int main(){
 ```
 Hello World
 ```
-# Module 2- Installation
+#Installation
 
 To download Visual Studio Code ,you require to go through with the following steps:
 * Step 1:- Search on browser to Download VsCode. 
