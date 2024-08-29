@@ -6,7 +6,7 @@
 - [Introduction](#Introduction)
 - [Installation](#Installation)
 - [System Requirement](#System-Requirement)
-- [Variables, Constant, Keywords](#Variables,-Constant,-Keywords)
+- [Variables, Constant and Keywords](#Variables,-Constant-and-Keywords)
 - [Operators](#Operators) 
 - [Control_Statements_&_Decision_Making](#Control_Statements_&_Decision_Making)
 - [Pointers](#Pointer)
@@ -87,7 +87,7 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
 * Processor: 11th Gen Intel Core i3
 * VS Code Version: 1.91.1
 
-  # Variables, Constant, Keywords
+  # Variables, Constant and Keywords
   ## Variables
   * Variables in programming are used to store piece of information.
   * It's type of COntainers storing some data (for eg. we store rice,dal, sugar in different containers)
