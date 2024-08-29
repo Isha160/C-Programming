@@ -170,7 +170,7 @@ Highest grade: A
 
 
 === Code Execution Successful ===
-```
+``
 ## Keywords
 * Keywords in C refer to a set of reserved words with predefined meanings that are used to write programs in the C programming language.
 * These keywords cannot be used as identifiers or variable names, as they have a specific function within the language.
