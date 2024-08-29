@@ -430,8 +430,8 @@ A is not less than 5ements
     } else {
         printf("The number is zero.\n");
      }
-    }```
-   
+    }
+   ```
 #### Output
 ```
 The number is zero.
@@ -485,19 +485,20 @@ Wednesday
    ```
    for (initialization; condition; Increment/decrement) {
     // Code to execute on each iteration
-}
-``
-   *  #### Example
+    }
+   ```
+     #### Example
     ```
     #include <stdio.h>
      int main() {
     // Loop from 0 to 4
     for (int i = 0; i < 5; i++) {
         printf("Number %d\n", i);
-    }
-}
-``
+     }
+   }
+   ```
 ### Output
+
 ```
 Number 0
 Number 1
@@ -511,8 +512,8 @@ Number 4
   ```
   while (condition) {
   // code block to be executed
-}
-``
+ }
+  ``
 #### Example
 ```
 #include <stdio.h>
@@ -523,7 +524,7 @@ int main() {
         printf("Number %d\n", i);
         i++; // Increment the loop variable
     }
-}
+ }
 ```
 #### Output
 ```
@@ -538,9 +539,9 @@ Number 4
 * The do-while loop body is executed at least once before the condition is tested.
  ####  Syntax of do While Loop
  ```
-do {
+ do {
     // Code to execute at least once and then repeatedly while condition is true
-} while (condition);
+  } while (condition);
 ```
 #### Example
 ```
@@ -552,7 +553,7 @@ int main() {
         printf("Number %d\n", i);
         i++; // Increment the loop variable
     } while (i < 5);
-}
+ }
 ```
 #### Output
 ```
@@ -578,11 +579,11 @@ ii)  continue
             break; // Exit the loop when i equals 5
         }
         printf("%d ", i);
+      }
     }
-}
-``
+    ``
 #### Output
-  ```
+```
 0 1 2 3 4
 ```
 ### Continue Statements
@@ -598,8 +599,8 @@ ii)  continue
         printf("%d ", i);
     }
     return 0;
-}
-``
+  }
+  ``
 #### Output
 ```
 1 3 5 7 9 
