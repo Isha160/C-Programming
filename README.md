@@ -14,7 +14,7 @@
 - [String](#String)
 
 # Introduction 
-* Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instrutions to the computer.
+* Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instructions to the computer.
 * C is one of the oldest Programming language which is developed by Dennis Ritchie in 1972.
 
 # Features 
@@ -87,13 +87,13 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
 
   # Variables, Constant and Keywords
   ## Variables
-  * Variables in programming are used to store piece of information.
+  * Variables in programming are used to store pieces of information.
   * It's type of Containers storing some data (for eg. we store rice, dal, sugar in different containers)
     ### Rules of naming Variables
     * The first character must be an alphabet or underscore(_).
       NOTE :- No special symbols rather than underscore is allowed.
     * NO commas or blanks are allowed.
-    * Variables names are Case senstive. eg- int STUDENT=10; , int student=10; (Both STUDENT and student are different variable)
+    * Variable names are Case sensitive. eg- int STUDENT=10; , int student=10; (Both STUDENT and student are different variable)
     ### Syntax of declaring Variable
    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221202181339/Cvariables1.png" alt="Features" height="250px" width="550px">
 
@@ -438,7 +438,7 @@ The number is zero.
 ```
 ### Switch Statements
 * The switch statement in C is a control flow structure that allows the execution of different code blocks based on the value of an expression.
-#### Exaample
+#### Example
 ```
 #include <stdio.h>
 int main() {
@@ -512,7 +512,7 @@ Number 4
   ```
   while (condition) {
   // code block to be executed
- }
+   }
   ``
 #### Example
 ```
@@ -635,7 +635,7 @@ The address of variable a is 1763721828
 The address of variable a is 6
 ```
  # Array
- * A array is a collection of similar type of elements.
+ * An array is a collection of similar type of elements.
  * It is a simple and fast way of storing multiple values under a single name.
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png" alt="Array" height="350px" width="450px">
     ## Syntax of Array
