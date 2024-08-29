@@ -174,8 +174,7 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
 
  # Operators
  * In Programming, operators are symbols that represent operations to be performed on one or more operands.
- * An operator is defined as the symbol that helps us to perform some specific mathematical, relational, bitwise, conditional, or logical computations on values and variables.
-    
+   
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231214120748/Operators-in-C.png" alt="Features" height="350px" width="350px">" 
 
  ## Arithmetic Operators:
@@ -184,41 +183,42 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
 
    | S. No. | Symbol | Operator | Description | Syntax |
 |---|---|---|---|---|
-| 1 | `<` | Less than | Returns true if the left operand is less than the right operand. Else false | a < b |
-| 2 | `>` | Greater than | Returns true if the left operand is greater than the right operand. Else false | a > b |
-| 3 | `<=` | Less than or equal to | Returns true if the left operand is less than or equal to the right operand. Else false | a <= b |
-| 4 | `>=` | Greater than or equal to | Returns true if the left operand is greater than or equal to right operand. Else false | a >= b |
-| 5 | `==` | Equal to | Returns true if both the operands are equal. | a == b |
-| 6 | `!=` | Not equal to | Returns true if both the operands are NOT equal. | a != b |
-  
-   *Program for Arithmetic Operator
-   ```
-   #include <stdio.h>
-    int main() {
-    int num1,num2;
-     printf("Enter first number: ");
-    scanf("%d", &num1);
-     printf("Enter Second number: ");
-    scanf("%d", &num2);
-    printf("num1+num2 = %d\n ", num1+num2);
-    printf("num1-num2 = %d\n ", num1-num2);
-    printf("num1*num2 = %d\n ", num1*num2);
-    printf("num1/num2 = %d\n ", num1/num2);
-   printf("num1%num2 = %d\n ", num1%num2);
-    return 0;
-}
-```
+| S. No. | Symbol | Operator | Description                                     | Syntax  |
+|--------|--------|----------|-------------------------------------------------|---------|
+| 1      | +      | Plus     | Adds two numeric values.                        | a + b   |
+| 2      | –      | Minus    | Subtracts right operand from left operand.       | a – b   |
+| 3      | *      | Multiply | Multiply two numeric values.                     | a * b   |
+| 4      | /      | Divide   | Divide two numeric values.                       | a / b   |
+| 5      | %      | Modulus  | Returns the remainder after dividing left operand by the right operand. | a % b   |
 
+  
+   # Program for Arithmetic Operator
+ ```
+    #include <stdio.h>
+       int main() {
+       int num1,num2;
+       printf("Enter first number: ");
+       scanf("%d", &num1);
+       printf("Enter Second number: ");
+       scanf("%d", &num2);
+       printf("num1+num2 = %d\n ", num1+num2);
+       printf("num1-num2 = %d\n ", num1-num2);
+       printf("num1*num2 = %d\n ", num1*num2);
+       printf("num1/num2 = %d\n ", num1/num2);
+       printf("num1%num2 = %d\n ", num1%num2);
+       return 0;
+    }
+```
 ### Output
 ```
-Enter first number: 7
-Enter Second number: 9
- num1+num2 = 16
- num1-num2 = -2
- num1*num2 = 63
- num1/num2 = 0
- num1%num2 = 1
-=== Code Execution Successful ===
+   Enter first number: 7
+   Enter Second number: 9
+   num1+num2 = 16
+   num1-num2 = -2
+   num1*num2 = 63
+   num1/num2 = 0
+   num1%num2 = 1
+   === Code Execution Successful ===
 ```
 ## Relational Operators 
 * The relational operators in C are used for the comparison of the two operands.
@@ -233,6 +233,7 @@ Enter Second number: 9
 | 4 | >= | Greater than or equal to | Returns true if the left operand is greater than or equal to right operand. Else false | a >= b |
 | 5 | == | Equal to | Returns true if both the operands are equal. | a == b |
 | 6 | != | Not equal to | Returns true if both the operands are NOT equal. | a != b |
+
  ### Program for Relational Operators
 ```
 #include <stdio.h>
@@ -251,9 +252,7 @@ int main() {
     return 0;
 }
 ```
-
 ### Output
-
 ```
 Enter two integers: 10 20
 10 == 20 is 0
@@ -274,7 +273,6 @@ Enter two integers: 10 20
 | Logical AND | `&&` | Returns true if both operands are true. | `a && b` |
 | Logical OR | `||` | Returns true if at least one operand is true. | `a || b` |
 | Logical NOT | `!` | Returns the opposite truth value of the operand. | `!a` |
-
 
 ### Program for Logical Operators
 ```
@@ -318,66 +316,6 @@ a is positive.
 
 === Code Execution Successful ===
 ```
-## Bitwise Operators
-* The Bitwise operators are used to perform bit-level operations on the operands.
-* Mathematical operations such as addition, subtraction, multiplication, etc. can be performed at the bit level for faster processing.
-* These are Bitwise Operators
-
- | S.No. | Symbol | Operator | Description | Syntax |
-|---|---|---|---|---|
-| 1 | & | Bitwise AND | Performs bit-by-bit AND operation and returns the result. | 'a & b' |
-| 2 | \| | Bitwise OR | Performs bit-by-bit OR operation and returns the result. | a \| b |
-| 3 | ^ | Bitwise XOR | Performs bit-by-bit XOR operation and returns the result. | a ^ b |
-| 4 | ~ | Bitwise First Complement | Flips all the set and unset bits on the number. | ~a |
-| 5 | << | Bitwise Leftshift | Shifts the number in binary form by one place in the operation and returns the result. | a << b |
-| 6 | >> | Bitwise Rightshift | Shifts the number in binary form by one place in the operation and returns the result. | a >> b |
-
-
-### Program for Bitwise Operators
-
-```
-#include <stdio.h>
-int main() {
-    int a, b;
-    // Input two integers
-    printf("Enter two integers: ");
-    scanf("%d %d", &a, &b);
-
-    // Bitwise AND
-    printf("%d & %d = %d\n", a, b, a & b);
-
-    // Bitwise OR
-    printf("%d | %d = %d\n", a, b, a | b);
-
-    // Bitwise XOR
-    printf("%d ^ %d = %d\n", a, b, a ^ b);
-
-    // Bitwise NOT (only for 'a' as an example)
-    printf("~%d = %d\n", a, ~a);
-
-    // Left Shift (shifting 'a' by 1)
-    printf("%d << 1 = %d\n", a, a << 1);
-
-    // Right Shift (shifting 'a' by 1)
-    printf("%d >> 1 = %d\n", a, a >> 1);
-
-    return 0;
-}
-```
-
-
-### Output
-```
-Enter two integers: 5 3
-5 & 3 = 1
-5 | 3 = 7
-5 ^ 3 = 6
-~5 = -6
-5 << 1 = 10
-5 >> 1 = 2
-
-=== Code Execution Successful ===
-```
 ## Assignment Operators
 * Assignment operators are used to assign value to a variable.
 * These are Assignment Operators :
@@ -390,12 +328,6 @@ Enter two integers: 5 3
 | 4 | *= | Multiply and assign | Multiply the right operand and left operand and assign this value to the left operand. | `a *= b` |
 | 5 | /= | Divide and assign | Divide the left operand with the right operand and assign this value to the left operand. | `a /= b` |
 | 6 | %= | Modulus and assign | Assign the remainder in the division of left operand with the right operand to the left operand. | `a %= b` |
-| 7 | &= | AND and assign | Performs bitwise AND and assigns this value to the left operand. | `a &= b` |
-| 8 | |= | OR and assign | Performs bitwise OR and assigns this value to the left operand. | `a |= b` |
-| 9 | ^= | XOR and assign | Performs bitwise XOR and assigns this value to the left operand. | `a ^= b` |
-| 10 | >>= | Rightshift and assign | Performs bitwise Rightshift and assign this value to the left operand. | `a >>= b` |
-| 11 | <<= | Leftshift and assign | Performs bitwise Leftshift and assign this value to the left operand. | `a <<= b` |
-
 				
 ### Example of Assignment Operators
 ```
@@ -408,12 +340,7 @@ int main(){
     printf("a -= b: %d\n", a -= b);
     printf("a *= b: %d\n", a *= b);
     printf("a /= b: %d\n", a /= b);
-    printf("a %%= b: %d\n", a %= b);
-    printf("a &= b: %d\n", a &= b);
-    printf("a |= b: %d\n", a |= b);
-    printf("a >>= b: %d\n", a >>= b); 
-    printf("a <<= b: %d\n", a <<= b);
-
+    printf("a %= b: %d\n", a %= b);
     return 0;
 }
 ```
@@ -425,54 +352,6 @@ a -= b: 5
 a *= b: 25
 a /= b: 5
 a %= b: 0
-a &= b: 0
-a |= b: 5
-a >>= b: 0
-a <<= b: 0
-```
-## Unary Operators 
-* Unary operators are the operators that perform operations on a single operand to produce a new value.
-  ### Types of Unary Operators
-  #### Unary Plus (+) Operator
-* The unary plus operator doesn't affect the value of its operand. However, it can improve code readability and indicate the positive value.
-  
-  ```
-  int x = +5;
-    printf("%d\n", x);  // Output: 5
-``
-#### Unary Minus (-) Operator
-* The unary minus operator negates the value of its operand. If it's applied to a positive value, the value becomes negative, and vice versa.
-* 
-  ```
-  int x = -5;
-  printf("%d\n", x);  // Output: -5
-``
-#### Increment (++) Operator
-* This unary operator in C increases the value of its operand by 1.
- ```
-  int x = 5;
-x++;
-printf("%d\n", x);  // Output: 6
-```
-#### Decrement (--) Operator
-* The decrement operator decreases the value of its operand by 1.
-  
-```
-int x = 5;
-x--;
-printf("%d\n", x);  // Output: 4
-```
-#### Address of (&) Operator in C
-* This operator returns the memory address of its operand.
-```
-int x = 5;
-printf("%p\n", &x);  // Output: Memory address of x
-```
-#### Sizeof() Operator
-* The sizeof operator returns the size (in bytes) of its operand.
- ```
-int x;
-printf("%zu\n", sizeof(x));  // Output: Size of integer on your system, commonly 4
 ```
 
 ## Conditional/ Ternary Operator
