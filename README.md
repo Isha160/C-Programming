@@ -30,7 +30,7 @@
  ```
  // This is a single line comment
  ```
- ###  Multi-line comment
+  ###  Multi-line comment
  * The Multi-line comment in C starts with a forward slash and asterisk ( /* ) and ends with an asterisk and forward slash ( */ ). Any text between /* and */ is treated as a comment and is ignored by the compiler.
  * It can apply comments to multiple lines in the program.
  ```
