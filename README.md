@@ -1,14 +1,14 @@
 # C Programming
 
-<img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="350px">
+<img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="450px">
 
 # Table of Content
 - [Introduction of C Programming](#Introduction)
 - [Installation](#Installation)
-- [System Requirement](#System Requirement)
-- [Variables, Constant & Keywords](#Variables, Constant & Keywords)
+- [System_Requirement](#System_Requirement)
+- [Variables,Constant,Keywords](#Variables,Constant,Keywords)
 - [Operators](#Operators) 
-- [Control Statements & Decision Making](#Control Statements & Decision Making)
+- [Control_Statements_&_Decision_Making](#Control_Statements_&_Decision_Making)
 - [Pointers](#Pointer)
 - [Array](#Array)
 - [String](#String)
