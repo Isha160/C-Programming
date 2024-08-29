@@ -4,7 +4,7 @@
 
 # Table of Content
 - [Introduction of C Programming](#introduction)
-- [Installation](#installation)
+- [Installation](#Installation)
 - [System_Requirement](#System_Requirement)
 - [Variables,Constant,Keywords](#Variables,Constant,Keywords)
 - [Operators](#Operators) 
@@ -51,7 +51,7 @@ int main(){
 ```
 Hello World
 ```
-#Installation
+# Installation
 
 To download Visual Studio Code ,you require to go through with the following steps:
 * Step 1:- Search on browser to Download VsCode. 
