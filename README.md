@@ -15,9 +15,7 @@
 
 # Introduction 
 * Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instrutions to the computer.
-* C is one of the oldest and finest Programming language which is developed by Dennis Ritchie in 1972.
-* It was developed as a system programming language to write the UNIX operating system.
-* C Programming is used to program embedded systems where programs need to run faster in limited memory.
+* C is one of the oldest Programming language which is developed by Dennis Ritchie in 1972.
 
 # Features 
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/08/Features-of-C.jpg" alt="Features" height="350px" width="350px">
@@ -28,29 +26,29 @@
 * Multi-line comment
   
   ### Single-line Comment
-A single-line comment in C starts with ( // ) double forward slash. It extends till the end of the line and we don’t need to specify its end.
-```
-// This is a single line comment
-```
+ A single-line comment in C starts with ( // ) double forward slash. It extends till the end of the line and we don’t need to specify its end.
+ ```
+ // This is a single line comment
+ ```
  ###  Multi-line comment
-* The Multi-line comment in C starts with a forward slash and asterisk ( /* ) and ends with an asterisk and forward slash ( */ ). Any text between /* and */ is treated as a comment and is ignored by the compiler.
-* It can apply comments to multiple lines in the program.
-```
-/* Hello Isha
-Are You Fine? */
-```
-# First Program in C
-```
-#include<stdio.h>
-int main(){
+ * The Multi-line comment in C starts with a forward slash and asterisk ( /* ) and ends with an asterisk and forward slash ( */ ). Any text between /* and */ is treated as a comment and is ignored by the compiler.
+ * It can apply comments to multiple lines in the program.
+ ```
+ /* Hello Isha
+ Are You Fine? */
+ ```
+ # First Program in C
+ ```
+ #include<stdio.h>
+ int main(){
    printf("Hello World");
    return 0;
-}
-```
-### Output
-```
-Hello World
-```
+ }
+ ```
+ ### Output
+ ```
+ Hello World
+ ```
 # Installation
 
 To download Visual Studio Code ,you require to go through with the following steps:
