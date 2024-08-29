@@ -3,7 +3,7 @@
 <img src="https://contentstatic.techgig.com/photo/90325682.cms" alt="C Programming" height="350px" width="450px">
 
 # Table of Content
-- [Introduction of C Programming](#Introduction)
+- [Introduction](#Introduction)
 - [Installation](#Installation)
 - [System_Requirement](#System_Requirement)
 - [Variables,Constant,Keywords](#Variables,Constant,Keywords)
@@ -13,7 +13,7 @@
 - [Array](#Array)
 - [String](#String)
 
-# Introduction of C Programming
+# Introduction 
 * Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instrutions to the computer.
 * C is one of the oldest and finest Programming language which is developed by Dennis Ritchie in 1972.
 * It was developed as a system programming language to write the UNIX operating system.
