@@ -88,20 +88,20 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
   # Variables, Constant and Keywords
   ## Variables
   * Variables in programming are used to store piece of information.
-  * It's type of COntainers storing some data (for eg. we store rice,dal, sugar in different containers)
+  * It's type of Containers storing some data (for eg. we store rice, dal, sugar in different containers)
     ### Rules of naming Variables
     * The first character must be an alphabet or underscore(_).
       NOTE :- No special symbols rather than underscore is allowed.
     * NO commas or blanks are allowed.
-    * Variables names are Case senstive. eg- int STUDENT=10; , int student=10; (Both STUDENT and student are different variable
+    * Variables names are Case senstive. eg- int STUDENT=10; , int student=10; (Both STUDENT and student are different variable)
     ### Syntax of declaring Variable
    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221202181339/Cvariables1.png" alt="Features" height="250px" width="550px">
 
    ### WAP for Variables
    ```
-#include <stdio.h>
+   #include <stdio.h>
 
-int main() {
+   int main() {
     // Declaring variables of different types
     int age = 25;                // Integer variable
     float height = 5.9;          // Float variable
@@ -115,33 +115,32 @@ int main() {
     printf("Initial: %c\n", initial);       // %c is used for characters
     printf("Salary: %.2f\n", salary);       // %.2f is used for doubles with two decimal places
     printf("Name: %s\n", name);             // %s is used for strings
-}
-```
+  }
+  ```
   ### Output
-```
-Age: 25
-Height: 5.9
-Initial: A
-Salary: 50000.75
-Name: Alice
-
-
-=== Code Execution Successful ===
-```
+  ```
+  Age: 25
+  Height: 5.9
+  Initial: A
+  Salary: 50000.75
+  Name: Alice
+ ``
 ## Constant
 * The constants in C are the read-only variables whose values cannot be modified once they are declared in the C program.
 * The type of constant can be an integer constant, a floating pointer constant, a string constant, or a character constant.
-*  In C language, the const keyword is used to define the constants.
+* In C language, the const keyword is used to define the constants.
   ### Syntax of declaring Constant
-  ```
-const data_type var_name = value;
-```
- <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230306215927/syntax-of-constants-in-c.png" alt="Features" height="250px" width="550px">" 
- ### WAP of Constant
+  
  ```
-#include <stdio.h>
-
-int main() {
+ const data_type var_name = value;
+ ```
+ <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230306215927/syntax-of-constants-in-c.png" alt="Features" height="250px" width="550px">
+ 
+ ### WAP of Constant
+ 
+ ```
+ #include <stdio.h>
+ int main() {
     // Declare and initialize constant variables using the const keyword
     const int DAYS_IN_WEEK = 7;
     const int MONTHS_IN_YEAR = 12;
@@ -158,24 +157,20 @@ int main() {
     // DAYS_IN_WEEK = 8;
 
     return 0;
-}
+  }
 ```
-### Output
+ ### Output
 ```
-Number of days in a week: 7
-Number of months in a year: 12
-Highest grade: A
-
-
-=== Code Execution Successful ===
-``
+ Number of days in a week: 7
+ Number of months in a year: 12
+ Highest grade: A
+ === Code Execution Successful ===
+```
 ## Keywords
 * Keywords in C refer to a set of reserved words with predefined meanings that are used to write programs in the C programming language.
 * These keywords cannot be used as identifiers or variable names, as they have a specific function within the language.
   
  <img src="https://techskillguru.com/cdata/cprogramming/images/C-Keywords.png" alt="Features" height="350px" width="350px">
-
- 
 
  # Operators
  * In Programming, operators are symbols that represent operations to be performed on one or more operands.
