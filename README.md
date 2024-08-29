@@ -9,7 +9,7 @@
 - [Variables, Constant and Keywords](#Variables,-Constant-and-Keywords)
 - [Operators](#Operators) 
 - [Control Statements & Decision Making](#Control-Statements-&-Decision-Making)
-- [Pointers](#Pointer)
+- [Pointer](#Pointer)
 - [Array](#Array)
 - [String](#String)
 
@@ -763,7 +763,7 @@ Value of i: 3
 Value of i: 4
 Loop finished
 ```
-# Pointers
+# Pointer
 * A pointer is a variable that stores the address of another variable.
   ## Syntax of pointer
   ```
