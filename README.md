@@ -14,7 +14,7 @@
 - [String](#String)
 
 # Introduction 
-* Programming- Computer programming is a medium for us to communicate with computers.Just like humans hindi/English to communicate which other,Programming is a way to deliver our instructions to the computer.
+* Programming- Computer programming is a medium for us to communicate with computers. Just like humans uses hindi/English language to communicate which each other, Programming is the way to deliver our instructions to the computer.
 * C is one of the oldest Programming language which is developed by Dennis Ritchie in 1972.
 
 # Features 
@@ -26,7 +26,7 @@
 * Multi-line comment
   
   ### Single-line Comment
- A single-line comment in C starts with ( // ) double forward slash. It extends till the end of the line and we don’t need to specify its end.
+ A single-line comment in C starts with ( // ) double forward slash. It extends until the end of the line and we don’t need to specify its end.
  ```
  // This is a single line comment
  ```
@@ -62,7 +62,7 @@ To download Visual Studio Code ,you require to go through with the following ste
 ```$ sudo apt update```
 * Step 7:- After update system, Navigate to the Download Directory:
 ```cd ~/Downloads ```  
-* Step 8:- Install the .deb Package:
+* Step 8:- Install the .deb Package by this command and enter your password:
   ```sudo dpkg -i code*.deb```
 * Step 9:- Fix Dependencies:
     ```sudo apt install -f ```
@@ -88,7 +88,7 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
   # Variables, Constant and Keywords
   ## Variables
   * Variables in programming are used to store pieces of information.
-  * It's type of Containers storing some data (for eg. we store rice, dal, sugar in different containers)
+  * It's type of Containers storing some data (for eg. we store rice, dal, sugar in different containers).
     ### Rules of naming Variables
     * The first character must be an alphabet or underscore(_).
       NOTE :- No special symbols rather than underscore is allowed.
@@ -126,9 +126,9 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
   Name: Alice``
  
 ## Constant
-* The constants in C are the read-only variables whose values cannot be modified once they are declared in the C program.
+* The constants in C are the read-only variables whose values cannot be modified once they are declared in the program.
 * The type of constant can be an integer constant, a floating pointer constant, a string constant, or a character constant.
-* In C language, the const keyword is used to define the constants.
+* In C language, the const keyword is used to define the constant.
   ### Syntax of declaring Constant
   
  ```
@@ -167,7 +167,7 @@ To use Visual Studio Code (VS Code) you need to ensure your system meets the fol
  === Code Execution Successful ===
 ```
 ## Keywords
-* Keywords in C refer to a set of reserved words with predefined meanings that are used to write programs in the C programming language.
+* Keywords in C refer to a set of reserved words with predefined meanings that are used to write programs in the C programming.
 * These keywords cannot be used as identifiers or variable names, as they have a specific function within the language.
   
  <img src="https://techskillguru.com/cdata/cprogramming/images/C-Keywords.png" alt="Features" height="350px" width="350px">
@@ -494,8 +494,9 @@ Wednesday
     // Loop from 0 to 4
     for (int i = 0; i < 5; i++) {
         printf("Number %d\n", i);
-     }
-   }
+      }
+    }
+    
    ```
 ### Output
 
@@ -513,7 +514,7 @@ Number 4
   while (condition) {
   // code block to be executed
    }
-  ``
+  ```
 #### Example
 ```
 #include <stdio.h>
@@ -581,7 +582,7 @@ ii)  continue
         printf("%d ", i);
       }
     }
-    ``
+    ```
 #### Output
 ```
 0 1 2 3 4
@@ -600,7 +601,7 @@ ii)  continue
     }
     return 0;
   }
-  ``
+  ```
 #### Output
 ```
 1 3 5 7 9 
@@ -678,7 +679,7 @@ Enter the English marks of students 5 :78
       char st[]="hello isha";
       printf("%s",st);
         }
-     ```
+      ```
      
 ### Output
 
